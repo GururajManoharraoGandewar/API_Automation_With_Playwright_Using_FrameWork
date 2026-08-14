@@ -70,8 +70,5 @@ test("delete employee information",async({employeeServices})=>{
     console.log(await response.status());
 
     console.log(await response.headers());
-
- 
     
 });
-
