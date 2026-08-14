@@ -62,7 +62,7 @@ test("Get Employeeinformation",async({employeeServices})=>{
  
 })
 
-test.skip("delete employee information",async({employeeServices})=>{
+test("delete employee information",async({employeeServices})=>{
     
 
     const response = await employeeServices.deleteEmployee(id);
